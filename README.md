@@ -45,10 +45,10 @@ https://github.com/coolsnowwolf/lede
 ## 自行编译：
 
 ```
-cd lede/package/lean  
+cd openwrt/package/lean  
 rm -rf luci-theme-neobird  
-git clone https://github.com/thinktip/luci-theme-neobird.git  
-cd ~/lede/
+git clone https://github.com/lwb1978/luci-theme-neobird.git  
+cd ~/openwrt/
 make menuconfig #choose LUCI->Theme->Luci-theme-neobird  
 make -j1 V=s
 ```
